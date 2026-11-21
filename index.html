@@ -23,7 +23,7 @@
 <body>
 <header>
   <h1>Política de privacidad de Pagos Seguros</h1>
-  <p>Aplicación para Android · Versión 4 · Actualizada el 5 de noviembre de 2026</p>
+  <p>Aplicación para Android · Versión 5 · Actualizada el 20 de noviembre de 2026</p>
 </header>
 <main>
 
@@ -31,16 +31,18 @@
 <p>Santiago Tovar, responsable de Pagos Seguros. Para consultas, reclamos o solicitudes sobre tus datos escribe a <a href="mailto:santiago.tovar@arpon.lat">santiago.tovar@arpon.lat</a>.</p>
 
 <h2>Qué hace la app</h2>
-<p>Pagos Seguros lee los avisos que las aplicaciones de tus bancos (Nequi, DaviPlata y Bancolombia) muestran en tu celular cuando recibes un pago, y te dice en voz alta cuánto te pagaron. También te muestra tu historial, te permite anotar a mano un pago y exportar tus pagos.</p>
+<p>Pagos Seguros lee los avisos que las aplicaciones de tus bancos (Nequi, DaviPlata y Bancolombia) muestran en tu celular cuando recibes un pago, y te dice en voz alta cuánto te pagaron. Si le das el permiso de SMS, también lee los mensajes de texto de pago que Nequi envía desde su número oficial (85954), que es como Nequi Negocios avisa los pagos al QR y a la llave del negocio. También te muestra tu historial, te permite anotar a mano un pago y exportar tus pagos.</p>
 
 <h2>Qué datos trata</h2>
 <ul>
   <li>De cada aviso de pago de un banco: monto, banco, nombre de quien paga (si el banco lo muestra), fecha y hora.</li>
+  <li>De los SMS de pago del número oficial de Nequi (85954): lo mismo que de un aviso de pago.</li>
+  <li>Si llega un SMS que dice que entró plata de Nequi pero viene de otro número: solo se anota que llegó un mensaje falso, para avisarte; no suma a tus pagos.</li>
   <li>Los pagos que tú anotas a mano.</li>
-  <li>Un registro de diagnóstico con el texto de los avisos de los bancos y lo que hace la app (cuándo se conecta, se abre o se duerme), para corregir errores de lectura. Los códigos y los números largos que no son montos se enmascaran y el registro se borra a los 14 días.</li>
+  <li>Un registro de diagnóstico con el texto de los avisos y de esos SMS de los bancos y lo que hace la app (cuándo se conecta, se abre o se duerme), para corregir errores de lectura. Los códigos y los números largos que no son montos se enmascaran y el registro se borra a los 14 días.</li>
   <li>Si las activas, estadísticas anónimas de funcionamiento (ver más abajo).</li>
 </ul>
-<p>La app <strong>no lee</strong> tus mensajes, tu WhatsApp, tu correo ni los avisos de ninguna otra aplicación.</p>
+<p>Cualquier otro SMS se descarta en el momento: la app no lo guarda, no lo envía y no lo muestra. La app <strong>nunca envía</strong> SMS, y <strong>no lee</strong> tu WhatsApp, tu correo ni los avisos de ninguna otra aplicación.</p>
 
 <h2>Para qué los usa</h2>
 <p>Solo para decirte los pagos en voz alta, mostrarte tus totales, tu historial, y permitirte exportarlos.</p>
@@ -48,6 +50,7 @@
 <h2>Permisos que solicita</h2>
 <ul>
   <li><strong>Acceso a notificaciones:</strong> para leer los avisos de pago de los bancos.</li>
+  <li><strong>Recibir SMS (opcional):</strong> para leer los mensajes de pago del número oficial de Nequi (85954) y avisarte si llega uno falso. Android lo llama «enviar y ver SMS», pero la app solo los recibe y nunca envía mensajes.</li>
   <li><strong>Mostrar notificaciones:</strong> para mostrarte cada pago recibido y avisarte si la app deja de escuchar.</li>
   <li><strong>Iniciar al encender el celular:</strong> para seguir vigilando que la app funcione después de reiniciar.</li>
   <li><strong>Internet:</strong> solo para enviar las estadísticas anónimas y los avisos del programa de referidos, y únicamente si tú los usas. Tus pagos no salen del celular.</li>
